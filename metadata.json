@@ -1,0 +1,6 @@
+{
+  "name": "Les Compagnons Couvreurs",
+  "description": "Couvreur à Épinal et dans les Vosges (88) depuis 2002 : rénovation de toiture, couverture, zinguerie, charpente, étanchéité et désamiantage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

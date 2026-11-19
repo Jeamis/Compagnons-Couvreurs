@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://compagnons-couvreurs.com/sitemap.xml

@@ -1,0 +1,21 @@
+# Plan de redirections 301 – Les Compagnons Couvreurs (compagnons-couvreurs.com)
+#
+# AUCUNE URL PRINCIPALE N'A ÉTÉ MODIFIÉE LORS DE LA REFONTE.
+# Toutes les URLs existantes sont conservées à l'identique (avec slash final) :
+#   /
+#   /couverture/
+#   /toiture/
+#   /zinguerie/
+#   /charpente/
+#   /etancheite/
+#   /desamiantage/
+#   /contact/
+#   /mentions-legales/
+#   /plan-du-site/
+#
+# Règles recommandées côté serveur (.htaccess / Nginx) avant mise en ligne :
+# 1. Forcer HTTPS + sans www (https://compagnons-couvreurs.com/)
+# 2. Rediriger les URLs sans slash final vers la version avec slash final (301)
+# 3. Vérifier dans Google Search Console s'il existe d'anciennes URLs WordPress
+#    indexées (ex. /accueil/, /politique-de-confidentialite/, /?p=...) et les
+#    ajouter ici avant bascule DNS.
